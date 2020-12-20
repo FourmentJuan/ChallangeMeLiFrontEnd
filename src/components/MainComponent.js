@@ -74,11 +74,16 @@ class Main extends Component{
                                         Completo Unico!
                                     </span> 
                                 </div>
+                                <div className="divItemCiudad">
+                                    <span className="spanCiudad">
+                                        Capital Federal
+                                    </span>
+                                </div>
                                 <hr/>
                             </li>
                             <li>
                                <div className="divItemImagen">
-                                    <img class="imgenListado" src='ImagenesIpod/Ipod1.jpg' alt='logoMeli.jpg'/> 
+                                    <img class="imgenListado" src='ImagenesIpod/Ipod2.jpg' alt='logoMeli.jpg'/> 
                                </div> 
                                <div className="divItemDesc">
                                     <span className="spanPrecio">
@@ -92,11 +97,16 @@ class Main extends Component{
                                         Completo Unico!
                                     </span> 
                                 </div>
+                                <div className="divItemCiudad">
+                                    <span className="spanCiudad">
+                                        Mendoza
+                                    </span>
+                                </div>
                                 <hr/>
                             </li>
                             <li>
                                <div className="divItemImagen">
-                                    <img class="imgenListado" src='ImagenesIpod/Ipod1.jpg' alt='logoMeli.jpg'/> 
+                                    <img class="imgenListado" src='ImagenesIpod/Ipod3.jpg' alt='logoMeli.jpg'/> 
                                </div> 
                                <div className="divItemDesc">
                                     <span className="spanPrecio">
@@ -110,11 +120,16 @@ class Main extends Component{
                                         Completo Unico!
                                     </span> 
                                 </div>
+                                <div className="divItemCiudad">
+                                    <span className="spanCiudad">
+                                        Capital Federal
+                                    </span>
+                                </div>
                                 <hr/>
                             </li>
                             <li>
                                <div className="divItemImagen">
-                                    <img class="imgenListado" src='ImagenesIpod/Ipod1.jpg' alt='logoMeli.jpg'/> 
+                                    <img class="imgenListado" src='ImagenesIpod/Ipod4.jpg' alt='logoMeli.jpg'/> 
                                </div> 
                                <div className="divItemDesc">
                                     <span className="spanPrecio">
@@ -127,6 +142,11 @@ class Main extends Component{
                                     <span className="spanNombre">
                                         Completo Unico!
                                     </span> 
+                                </div>
+                                <div className="divItemCiudad">
+                                    <span className="spanCiudad">
+                                        Capital Federal
+                                    </span>
                                 </div>
                                 <hr/>
                             </li>

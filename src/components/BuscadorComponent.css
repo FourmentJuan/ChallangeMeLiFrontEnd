@@ -109,9 +109,9 @@ li{
 .divItemDesc{
     padding-top: 16px;
     width: 40%;
-    vertical-align: center;
     display: inline-block;
     vertical-align: top;
+    color:#333333
 
 }
 
@@ -130,4 +130,18 @@ li{
 hr{
     border-color: rgb(238,238, 238);
     width: 95%;
+}
+
+.divItemCiudad{
+    font-size: 12px;
+    text-align: left;
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    padding-top: 16px;
+    color: #666666;
+}
+
+.spanCiudad{
+    padding-left: 10%;
 }

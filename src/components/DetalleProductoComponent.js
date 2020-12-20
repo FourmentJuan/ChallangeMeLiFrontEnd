@@ -1,5 +1,5 @@
 import React from 'react';
-import './BuscadorComponent.css';
+import '../styles/articulo.scss';
 
 function Producto(props) {
     return(

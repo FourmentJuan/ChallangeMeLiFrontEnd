@@ -1,0 +1,55 @@
+@import "general";
+
+.bloque-inline{
+
+    display: inline;
+
+    .imgHeader{
+        margin-left: $margen-izquierdo-grande;
+        margin-right: $margen-chico;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        vertical-align: $alineacion-vertical;
+    }
+
+    .buscadaForm{
+
+        margin: 0;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 80%;
+    
+    }
+
+    .divImageBuscador{
+
+        width: 46px;
+        background-color: white;
+        vertical-align: $alineacion-vertical;
+        height: 39px;
+    }
+}
+
+.header{
+    display:block;
+    background-color: $color-principal;
+    text-align: $alineacion-izquierda;
+}
+
+.inputBarra{
+    margin-left: 20px;
+    width: 993px;
+    height: 39px ;
+    border: 0px;
+    padding-left: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: $color-blanco-gris;
+
+}
+
+
+.buttonBuscador{
+    border: 0;
+    height: 100%;
+    width: 100%;
+}

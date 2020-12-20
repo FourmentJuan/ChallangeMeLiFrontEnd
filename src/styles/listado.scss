@@ -1,0 +1,65 @@
+@import "general";
+
+.displayInline{
+
+    display: $bloque-inline;
+
+    .divItemImagen{
+        width: 20%;
+    }
+
+    .divItemDesc{
+        padding-top: $margen-chico;
+        width: 40%;
+        vertical-align: top;
+        color:$color-oscuro
+    
+    }
+
+    .divItemCiudad{
+        font-size: $tamanioLetra7;
+        text-align: left;
+        width: 40%;
+        vertical-align: top;
+        padding-top: $margen-chico;
+        color: $color-gris-oscuro;
+    }
+
+}
+
+.listaArticulos{
+    padding: 0;
+    margin: 0;
+    background-color: $color-claro;
+    margin-left: $margen-izquierdo-grande;
+    width: 1125px;
+    text-align: $alineacion-izquierda;
+}
+
+
+.imgenListado{
+    width: 180px;
+    height: 180px;
+    border-radius: 4px;
+}
+
+.spanPrecio{
+    font-size: $tamanioLetra3;
+    margin-bottom: 32px;
+    margin-right: 8px;
+
+}
+
+.spanNombre{
+    font-size: $tamanioLetra4; 
+    display: block;  
+}
+
+hr{
+    border-color: $color-blanco-gris;
+    width: 95%;
+}
+
+.spanCiudad{
+    padding-left: 10%;
+}

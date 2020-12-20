@@ -1,0 +1,40 @@
+//Alineaciones
+$alineacion-izquierda: left;
+$alineacion-vertical: middle;
+
+//PosicionBloque
+$bloque-inline: inline-block;
+
+//Colores
+$color-principal:#FFE600;
+$color-oscuro:#333333;
+$color-gris-oscuro:#666666;
+$color-gris-claro:#999999;
+$color-blanco-gris:#eeeeee;
+$color-claro: white;
+$color-celeste:#3483FA;
+
+
+//Margenes
+$margen-grande:36px;
+$margen-chico:16px;
+$margen-mediano:32px;
+$margen-izquierdo-grande:120px;
+
+//Letras
+$tamanioLetra1:46px;
+$tamanioLetra2:28px;
+$tamanioLetra3:24px;
+$tamanioLetra4:18px;
+$tamanioLetra5:16px;
+$tamanioLetra6:14px;
+$tamanioLetra7:12px;
+
+body{
+    background-color: $color-blanco-gris;
+}
+
+li{
+    list-style-type: none;
+}
+

@@ -1,5 +1,5 @@
 import React from 'react';
-import './BuscadorComponent.css';
+import '../styles/listado.scss';
 
 function Listado(props){
 

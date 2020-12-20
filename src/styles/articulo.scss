@@ -1,0 +1,82 @@
+@import 'general';
+
+.alineacionIzquierda{
+    text-align: $alineacion-izquierda;
+
+    .vistarArticulo{
+        background-color:$color-claro;
+        margin-left: $margen-izquierdo-grande;
+        width: 1125px;
+        color: $color-oscuro
+    }
+
+    .discripArticuloDiv{
+        padding-left: $margen-mediano;
+    }
+
+
+}
+
+.margenButtonMediano{
+
+    margin-bottom:$margen-mediano;
+
+    display: block;
+
+    .textoDescProduct{
+        font-size: $tamanioLetra2;
+        
+    }
+
+    .DescProduct{
+        font-size: $tamanioLetra5;
+        color:$color-gris-oscuro;
+    }
+
+    .nombreArticulo{
+        font-size: $tamanioLetra3;
+    }
+
+    .precioArticulo{
+        font-size:$tamanioLetra1;
+    }
+}
+
+.bloqueInline{
+
+    display: $bloque-inline;
+
+    .imagenArticuloDescripcion{
+       
+        width: 60%;
+    }
+
+    .nombreArticuloPrecio{
+        width: 40%;
+        vertical-align: top;
+        padding-top: $margen-mediano;
+    } 
+    
+}
+
+.imagenArticuloGrande{
+    width: 680px;
+}
+
+
+.cantidadVendidos{
+    font-size: $tamanioLetra6;
+    display: block;
+    margin-bottom: 14px;
+}
+
+.buttonComprar{
+    background-color:$color-celeste;
+    margin-right: $margen-mediano;
+    border-width: 0;
+    height: 46px;
+    width: 300px;
+    color: $color-claro;
+    border-radius:$color-claro;
+
+}

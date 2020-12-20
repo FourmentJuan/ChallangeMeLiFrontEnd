@@ -1,0 +1,27 @@
+@import 'general';
+
+.categoriaDiv{
+    margin-left:$margen-izquierdo-grande;
+    margin-top: $margen-chico;
+    margin-bottom: $margen-chico;
+    color:$color-gris-oscuro;
+}
+
+
+.listaHorizontal{
+    display: flex;
+}
+
+.itemCategoria{
+    font-size: $tamanioLetra5;
+    min-width: 20px;
+
+    .itemCategoriaUltimo{
+        font-weight: bold;
+    }
+}
+
+.itemCategoria::after{
+    content: " >";
+    margin-right: 5px;
+}

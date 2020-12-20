@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './BuscadorComponent.css';
+import '../styles/buscador.scss';
 
 
 function Buscador(props) {

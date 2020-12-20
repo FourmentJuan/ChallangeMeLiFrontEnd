@@ -1,0 +1,133 @@
+.header{
+    display:block;
+    background-color: #FFE600;
+    text-align: left;
+}
+
+.imgHeader{
+    display: inline-block;
+    margin-left: 120px;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    vertical-align: middle;
+}
+
+body{
+    background-color: #EEEEEE;
+}
+
+.buscadaForm{
+    
+    display:inline-block;
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 80%;
+
+}
+
+.inputBarra{
+    margin-left: 20px;
+    width: 993px;
+    height: 39px ;
+    border: 0px;
+    padding-left: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(173, 173,173);
+
+}
+
+.divImageBuscador{
+    display: inline-block;
+    width: 46px;
+    background-color: white;
+    vertical-align: middle;
+    height: 39px;
+}
+
+.buttonBuscador{
+    border: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.contenido{
+    
+}
+
+.categoriaDiv{
+    margin-left:120px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: rgb(173, 173,173);
+}
+
+li{
+    list-style-type: none;
+}
+.listaHorizontal{
+    display: flex;
+}
+
+.itemCategoria{
+    font-size: 16px;
+    min-width: 20px;
+}
+
+.itemCategoriaUltimo{
+    font-weight: bold;
+    font-size: 16px;
+    min-width: 20px;
+}
+
+.itemCategoria::after{
+    content: " >";
+    margin-right: 5px;
+}
+
+.listaArticulos{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    margin-left: 120px;
+    width: 1125px;
+    text-align: left;
+}
+
+.divItemImagen{
+    width: 20%;
+    display: inline-block
+}
+
+.imgenListado{
+    width: 180px;
+    height: 180px;
+    border-radius: 4px;
+}
+
+.divItemDesc{
+    padding-top: 16px;
+    width: 40%;
+    vertical-align: center;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.spanPrecio{
+    font-size: 24px;
+    margin-bottom: 32px;
+    margin-right: 8px;
+
+}
+
+.spanNombre{
+    font-size: 18px; 
+    display: block;  
+}
+
+hr{
+    border-color: rgb(238,238, 238);
+    width: 95%;
+}

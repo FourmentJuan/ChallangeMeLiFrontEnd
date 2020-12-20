@@ -145,3 +145,75 @@ hr{
 .spanCiudad{
     padding-left: 10%;
 }
+
+.vistarArticulo{
+    background-color: white;
+    margin-left: 120px;
+    width: 1125px;
+    text-align: left;
+}
+
+.imagenArticuloDescripcion{
+    display: inline-block;
+    width: 60%;
+}
+
+.imagenArticuloGrande{
+    width: 680px;
+}
+
+.discripArticuloDiv{
+    padding-left: 32px;
+    text-align: left;
+}
+
+.textoDescProduct{
+    font-size: 28px;
+    margin-bottom: 32px;
+    display: block;
+    
+}
+
+.DescProduct{
+    font-size: 16px;
+    margin-bottom: 32px;
+    display: block;
+}
+
+.nombreArticuloPrecio{
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    padding-top: 32px;
+}
+
+.cantidadVendidos{
+    font-size: 14px;
+    display: block;
+    margin-bottom: 14px;
+}
+
+.nombreArticulo{
+    font-size: 24px;
+    display: block;
+    margin-bottom: 32px;
+
+}
+
+.precioArticulo{
+    display: block;
+    font-size: 46px;
+    margin-bottom: 32px;
+
+}
+
+.buttonComprar{
+    background-color: #3483FA;
+    margin-right: 32px;
+    border-width: 0;
+    height: 46px;
+    width: 300px;
+    color: white;
+    border-radius: 4px;
+
+}

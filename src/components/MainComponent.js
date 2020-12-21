@@ -12,25 +12,25 @@ class Main extends Component{
         super(props);
     }
 
+    
     render(){
 
+        const Principal = () => {
+            return(
+                <div>
+                </div>
+            )
+        }
+    
+
         return(
-                /*<div>
-                    <Switch>
-                        <Route exact path="/" component={Buscador}/>
-                        <Route path="/items/:id" component={Producto}/>
-                        <Redirect path="/"/>
-                    </Switch>
-                </div>*/
                 <>
-                    <Buscador>
-                    </Buscador>
-                    <Categorias>
-                    </Categorias>
-                    <Listado>
-                    </Listado>
-                    <Producto>
-                    </Producto>
+                    <Buscador></Buscador>
+                    <Switch>
+                        <Route path="/items/:id" exact component={Producto} />
+                        <Route path="/items" exact component={Listado}/>
+                        <Route path="/" component={Principal} />
+                    </Switch>
                 </>
         );
     }

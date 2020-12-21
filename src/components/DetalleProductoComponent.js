@@ -5,7 +5,7 @@ function Producto(props) {
     return(
       <div className="vistarArticulo">
           <div className="imagenArticuloDescripcion">
-              <img className="imagenArticuloGrande" src='ImagenesIpod/Ipod4.jpg' alt='logoMeli.jpg'/> 
+              <img className="imagenArticuloGrande" src='http://localhost:3000/ImagenesIpod/Ipod4.jpg' alt='logoMeli.jpg'/> 
               <div className="discripArticuloDiv">
                   <span className="textoDescProduct">Descripción del producto</span>
                   <span className="DescProduct">

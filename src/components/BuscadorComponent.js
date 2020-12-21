@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/buscador.scss';
 
 
@@ -6,7 +7,9 @@ function Buscador(props) {
     return(
         <div className="header">
             <div className="imgHeader">
-                <img src='Assets/Logo_ML.png' alt='logoMeli.jpg'/> 
+                <Link to="/">
+                    <img src="http://localhost:3000/Assets/Logo_ML.png" alt='logoMeli.jpg'/> 
+                </Link>
             </div>
             <form className="buscadaForm">
                 <filedset>
@@ -15,7 +18,7 @@ function Buscador(props) {
                     />
                     <div className="divImageBuscador">
                         <button class="buttonBuscador"type="submit">
-                            <img src='Assets/ic_Search.png' alt='logoMeli.jpg'/> 
+                            <img src='http://localhost:3000/Assets/ic_Search.png' alt='logoMeli.jpg'/> 
                         </button>
                     </div>
                 </filedset>

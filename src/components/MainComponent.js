@@ -28,7 +28,6 @@ class Main extends Component{
                     <Buscador></Buscador>
                     <Switch>
                         <Route path="/items/:id" exact component={Producto} />
-                        <Route path="/items" exact component={Listado}/>
                         <Route path="/" component={Principal} />
                     </Switch>
                 </>

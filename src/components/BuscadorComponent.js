@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/buscador.scss';
-import Listado from './Listado.js'
+import Categorias from './CategoriasComponent'
+import Listado from './Listado.js';
+
 
 
 class Buscador extends Component{
@@ -11,7 +13,8 @@ class Buscador extends Component{
 
         this.state = {
             inputvalue:"",
-            articulos:null
+            articulos:null,
+            categorias:null
         };
 
         this.handleClick = this.handleClick.bind(this);
@@ -26,7 +29,8 @@ class Buscador extends Component{
         })
         .then(response => {
             this.setState({
-                articulos:response.results
+                articulos:response.results,
+                categorias:response.filters
             });
         })
     }
@@ -76,6 +80,7 @@ class Buscador extends Component{
                             </button>
                         </div>
                 </div>
+                <Categorias categorias={this.state.categorias}/>
                 <Listado articulos={this.state.articulos}/>
             </>
         )

@@ -2,27 +2,43 @@ import React from 'react';
 import '../styles/categoria.scss';
 
 function Categorias(props) {
+    if(props.categorias!=null)
     return(
-        <div className="categoriaDiv">
-            <ul className="listaHorizontal">
-                <li className="itemCategoria">
-                    Electrónica, Audio y Video  
-                </li>
-                <li className="itemCategoria">
-                    IPod
-                </li>
-                <li className="itemCategoria">
-                    Reproductores
-                </li>
-                <li className="itemCategoria">
-                    IPod touch
-                </li>
-                <li className="itemCategoriaUltimo">
-                    32GB
-                </li>
-            </ul>
-        </div>
+        <ul className="listaHorizontal" >
+            {
+                props.categorias.map((categoria) =>{
+                    return(
+                        categoria.values.map((value) => {
+                            return(
+                                <li className="itemCategoria" key={value.id}>
+                                    {value.name}
+                                </li>
+                            )
+                        })
+                    )
+                })
+            }
+        </ul>
     )
 }
 
 export default Categorias;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

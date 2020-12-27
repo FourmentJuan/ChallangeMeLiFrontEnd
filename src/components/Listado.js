@@ -1,16 +1,18 @@
-import React, { Component } from 'react';
+import React from 'react';
 import '../styles/listado.scss';
 
 
 function Listado(props) {
+    let i=0;
     if(props.articulos!=null)
     return(
         <ul className="listaArticulos">
             {
                 props.articulos.map((articulo) => {
+                    i++;
                     if(articulo.shipping.free_shipping)
                     return(
-                        <li>
+                        <li key={articulo.id}>
                             <div className="divItemImagen">
                                 <img className="imgenListado" src={articulo.thumbnail} alt='logoMeli.jpg'/> 
                             </div> 
@@ -37,7 +39,7 @@ function Listado(props) {
                     )
                     else
                     return(
-                        <li>
+                        <li key={articulo.id}>
                             <div className="divItemImagen">
                                 <img className="imgenListado" src={articulo.thumbnail} alt='logoMeli.jpg'/> 
                             </div> 
@@ -50,7 +52,7 @@ function Listado(props) {
                                     {articulo.title}
                                 </span> 
                                 <span className="spanNombre">
-                                    Completo Unico!
+                                    {articulo.condition}
                                 </span> 
                             </div>
                             <div className="divItemCiudad">
@@ -61,7 +63,7 @@ function Listado(props) {
                             <hr/>
                         </li>
                     )
-                })    
+                })  
             }
         </ul>
     )

@@ -32,6 +32,7 @@ class Buscador extends Component{
                 articulos:response.results,
                 categorias:response.filters
             });
+            console.log("Desde buscador " + this.state.articulos);
         })
     }
 

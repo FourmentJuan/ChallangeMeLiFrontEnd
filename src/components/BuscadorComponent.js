@@ -32,7 +32,7 @@ class Buscador extends Component{
                 articulos:response.results,
                 categorias:response.filters
             });
-            console.log("Desde buscador " + this.state.articulos);
+
         })
     }
 
@@ -49,9 +49,7 @@ class Buscador extends Component{
         return(
             <div className="header">
                 <div className="imgHeader">
-                    <Link to="/">
-                        <img src="http://localhost:3000/Assets/Logo_ML.png" alt='logoMeli.jpg'/>
-                    </Link>
+                    <img src="http://localhost:3000/Assets/Logo_ML.png" alt='logoMeli.jpg'/>
                 </div>
                     <input className="inputBarra" type="search"
                         placeholder="Nunca dejes de buscar" id="texto" onChange={this.handleInputChange}
@@ -68,9 +66,7 @@ class Buscador extends Component{
             <>
                 <div className="header">
                     <div className="imgHeader">
-                        <Link to="/">
-                            <img src="http://localhost:3000/Assets/Logo_ML.png" alt='logoMeli.jpg'/>
-                        </Link>
+                        <img src="http://localhost:3000/Assets/Logo_ML.png" alt='logoMeli.jpg'/>
                     </div>
                         <input className="inputBarra" type="search"
                             placeholder="Nunca dejes de buscar" id="texto" onChange={this.handleInputChange}

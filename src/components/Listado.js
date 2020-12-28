@@ -37,61 +37,65 @@ class Listado extends Component {
                 <Producto articulo={this.state.articulo}/>
             )
         if(this.props.articulos!=null)
+
             return(
                 <ul className="listaArticulos">
                     {
                         this.props.articulos.map((articulo) => {
                             if(articulo.shipping.free_shipping)
                             return(
-                                <li key={articulo.id} onClick={this.handleClick.bind(this,articulo.id)}>
-                                    <div className="divItemImagen">
-                                        <img className="imgenListado" src={articulo.thumbnail} alt='logoMeli.jpg'/> 
-                                    </div> 
-                                    <div className="divItemDesc">
-                                        <span className="spanPrecio">
-                                            $
-                                            {articulo.price}
-                                        </span>
-                                        <span className="spanNombre">
-                                            {articulo.title}
-                                        </span> 
-                                        <span className="spanNombre">
-                                            {articulo.condition}
-                                        </span> 
-                                    </div>
-                                    <div className="divItemCiudad">
-                                        <span className="spanCiudad">
-                                            {articulo.address.state_name}
-                                        </span>
-                                    </div>
-                                    <hr/>
-                                </li>
+
+                                    <li key={articulo.id} onClick={this.handleClick.bind(this,articulo.id)}>
+                                        
+                                            <div className="divItemImagen">
+                                                <img className="imgenListado" src={articulo.thumbnail} alt='logoMeli.jpg'/> 
+                                            </div> 
+                                            <div className="divItemDesc">
+                                                <span className="spanPrecio">
+                                                    $
+                                                    {articulo.price}
+                                                </span>
+                                                <span className="spanNombre">
+                                                    {articulo.title}
+                                                </span> 
+                                                <span className="spanNombre">
+                                                    {articulo.condition}
+                                                </span> 
+                                            </div>
+                                            <div className="divItemCiudad">
+                                                <span className="spanCiudad">
+                                                    {articulo.address.state_name}
+                                                </span>
+                                            </div>
+                                            <hr/>
+                                    </li>
                             )
                             else
                             return(
-                                <li key={articulo.id}>
-                                    <div className="divItemImagen">
-                                        <img className="imgenListado" src={articulo.thumbnail} alt='logoMeli.jpg'/> 
-                                    </div> 
-                                    <div className="divItemDesc">
-                                        <span className="spanPrecio">
-                                            $
-                                            {articulo.price}
-                                        </span>
-                                        <span className="spanNombre">
-                                            {articulo.title}
-                                        </span> 
-                                        <span className="spanNombre">
-                                            {articulo.condition}
-                                        </span> 
-                                    </div>
-                                    <div className="divItemCiudad">
-                                        <span className="spanCiudad">
-                                            {articulo.address.state_name}
-                                        </span>
-                                    </div>
-                                    <hr/>
-                                </li>
+                                    <li key={articulo.id}>
+                                            <div className="divItemImagen">
+                                                <img className="imgenListado" src={articulo.thumbnail} alt='logoMeli.jpg'/> 
+                                            </div> 
+                                            <div className="divItemDesc">
+                                                <span className="spanPrecio">
+                                                    $
+                                                    {articulo.price}
+                                                </span>
+                                                <span className="spanNombre">
+                                                    {articulo.title}
+                                                </span> 
+                                                <span className="spanNombre">
+                                                    {articulo.condition}
+                                                </span> 
+                                            </div>
+                                            <div className="divItemCiudad">
+                                                <span className="spanCiudad">
+                                                    {articulo.address.state_name}
+                                                </span>
+                                            </div>
+                                            <hr/>
+
+                                    </li>
                             )
                         })  
                     }
